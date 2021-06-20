@@ -20,7 +20,7 @@ public static int birthdayCakeCandles(List<Integer> candles) {
         }
     }
     for(int j :candles){
-        if(j==max){
+        if(j==max){   //logic to get maximum number counts in a array
             count++;
         }
     }
