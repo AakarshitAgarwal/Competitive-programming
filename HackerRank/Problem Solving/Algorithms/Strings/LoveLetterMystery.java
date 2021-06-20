@@ -5,7 +5,7 @@ public static int theLoveLetterMystery(String s) {
     int j=s.length()-1;
     while(i<j){
         
-        count =count + Math.abs(s.charAt(i)-s.charAt(j));
+        count =count + Math.abs(s.charAt(i)-s.charAt(j));  //Math.abs (I was new to this :\)
         i++;j--;
     }
     return count;
