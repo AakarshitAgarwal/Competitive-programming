@@ -6,7 +6,7 @@ public static int camelcase(String s) {
     //code2
     int term=1;
     for(int i=0;i<s.length();i++){
-        String letter = Character.toString(s.charAt(i));
+        String letter = Character.toString(s.charAt(i));    //To get String characters to another string one by one(typecasting)
         if(letter==letter.toUpperCase()){
             term++;
         }
