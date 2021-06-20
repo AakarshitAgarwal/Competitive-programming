@@ -19,7 +19,7 @@ public static void plusMinus(List<Integer> arr) {
     double r2=(negative/size);
     double r3=(zeros/size);
     
-    DecimalFormat df = new DecimalFormat();
+    DecimalFormat df = new DecimalFormat();     //How to use decimal format in java to setMaximumFractionDigits
     df.setMaximumFractionDigits(6);
     
     System.out.println(df.format(r1));
