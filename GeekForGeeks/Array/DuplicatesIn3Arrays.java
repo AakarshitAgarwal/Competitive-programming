@@ -1,4 +1,4 @@
-public class DuplicatesInArrays {
+public class DuplicatesIn3Arrays {
     public static void main(String args[]){
 
         int arr1[]=new int[]{1,5,10,20,40,80};

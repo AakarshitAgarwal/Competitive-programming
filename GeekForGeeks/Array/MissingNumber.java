@@ -15,3 +15,5 @@ public class MissingNumber {
 
 
 //or use the formula sum of n elements n(n+1)/2
+
+//Code not working for int arr[]=new int[]{7,8,10,11,12,13};

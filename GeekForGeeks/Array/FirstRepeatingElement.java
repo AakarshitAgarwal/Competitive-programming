@@ -5,11 +5,11 @@ public class FirstRepeatingElement {
 
         int min=-1;
 
-        int arr[]=new int[]{10, 5, 3, 4, 3, 5, 6};
+        int arr[]=new int[]{10, 5, 3, 4, 5,3, 6};
 
         HashSet<Integer> set=new HashSet<>();
 
-        for(int i=0;i<arr.length;i++){
+        for(int i=arr.length-1;i>=0;i--){
             if(set.contains(arr[i])){
                 min=i;
             }
