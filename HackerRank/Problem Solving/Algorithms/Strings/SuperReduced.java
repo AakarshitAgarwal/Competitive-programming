@@ -1,5 +1,8 @@
-public static String superReducedString(String s) {
+// public static String superReducedString(String s) {
+    public class SuperReduced{
+        public static void main(String args[]){
     // Write your code here
+    String s="aaabccddd";
     for(int i=1;i<s.length();i++)
     {
         if(s.charAt(i)==s.charAt(i-1))
@@ -10,10 +13,9 @@ public static String superReducedString(String s) {
         }
     }
     if(s.length()==0){
-        return("Empty String");
+        System.out.println("Empty String");
     }else{
-        return(s);
-    }
-    
-
-    }
+        System.out.println(s);
+        }
+    } 
+}

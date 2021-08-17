@@ -23,5 +23,6 @@ public class FirstRepeatingElement {
             else{
                 System.out.println("There is no repeating element");
             }
-    }    
+            System.out.println(set);
+        }    
 }

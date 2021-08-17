@@ -29,7 +29,7 @@ class Result {
         return newNode;
     } else if (data < llist.data) { // insert in front of list
         newNode.next = llist;
-        llist.prev = newNode;
+        llist.prev = newNode; //making both connections
         return newNode;
     } else {        
         /* Walk list with 2 pointers (code is cleaner than using just 1 pointer) */

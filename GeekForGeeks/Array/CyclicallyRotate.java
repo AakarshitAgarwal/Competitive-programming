@@ -8,7 +8,9 @@ public static void main(String[] args) {
         }
         arr[0]=x;
 
-        System.out.println(Arrays.toString(arr));
-    
+        // System.out.println(Arrays.toString(arr));
+        for(int j=0;j<(arr.length);j++){
+            System.out.print(" "+arr[j]);
+            }
     }
 }
