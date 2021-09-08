@@ -1,7 +1,5 @@
 {
     "java.project.sourcePaths": [
-        "PepCoding/BinaryTree/LEVEL1.0/Node to root path",
-        "PepCoding/BinaryTree/LEVEL1.0/Print K level down",        
-        "PepCoding/BinaryTree/LEVEL1.0"
+        "PepCoding/Recursion/BackTracking"
     ]
 }
